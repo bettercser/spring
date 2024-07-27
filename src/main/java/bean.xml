@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <!-- 定义 HelloService Bean -->
+    <bean id="helloService" class="org.settings.service.HelloService" scope="">
+        <!-- 这里可以添加依赖注入的属性 -->
+    </bean>
+    <bean id="helloController" class="org.settings.controller.HelloController" scope="singleton">
+        <!-- 这里可以添加依赖注入的属性 -->
+    </bean>
+</beans>
